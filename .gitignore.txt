@@ -1,0 +1,46 @@
+# === Visual Studio / .NET Core ===
+
+# User-specific files
+*.sln.DotSettings.user
+*.suo
+*.user
+*.vspscc
+*.vssscc
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+
+# Rider specific
+.idea/
+
+# Mac/Linux specific
+.DS_Store
+*~
+
+# Paketler / Tools
+packages/
+*.nupkg
+.local/
+.store/
+
+# Log files
+*.log
+    
+# === GÜVENLİK / SECRET FILES ===
+# Bu dosyalar genelde şifreleri ve gizli anahtarları içerir
+# EĞER "appsettings.json" DOSYAN VERİTABANI ŞİFRESİ İÇERİYORSA,
+# AŞAĞIDAKİ satırın başındaki # işaretini kaldır:
+# appsettings.json
+
+appsettings.Development.json
+secrets.json
+*.config.user
+
+# EF Core (Eğer SQLite kullanıyorsan)
+*.db
+*.sqlite
+*.sqlite3
